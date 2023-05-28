@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+    <title>Store</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="/src/home-page/home.html">Home</a>
+        <a href="https://github.com/geode-sdk" target="_blank" class="github-link">
+          <i class="fa-brands fa-github fa-2xl" style="color: #4fb0be;"></i>
+        </a>
+        <i class="fa-solid fa-bars fa-2xl navigation-bar-icon" style="color:#4fb0be"></i>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <i class="fa-solid fa-minus side-bar-icon" style="color: #4fb0be;"></i>
+        <a href="/src/home-page/home.html">Home</a>
+        <a href="/src/signin-page/signin.html">Sign In</a>
+        <a href="/src/store-page/store.html">Store</a>
+    </div>
+    <div class="cart-list">
+        <i class="fa-solid fa-xmark"></i>
+        <h2>Your Cart</h2>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="buy-section">
+            <span class="total-cost-label">Total Cost:</span>
+            <span class="total-cost-value" id="total-cost">0đ</span>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+    <!--WARNING: FOOTER BELOW-->
+    <footer class="footer">
+        <div class="container">
+          <p>&copy; SUPPORT GEODE_SDK PLS PLS PLS PLS PLS</p>
+          <p style="color:red">GEODE GITHUB LINK: ON THE NAV BAR</p>
+        </div>
+      </footer>
+    <!--######################ISOLATION LINE#############################-->
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+        </div>
+        <div class="shop-contents">
+            <div class="product-container">
+                <img src="/img/covua.jpg" class="product-img">
+                <h2 class="product-title">Cờ Vua</h2>
+                <span>199.000đ</span>
+                <i class="fa-solid fa-cart-plus fa-lg" id="covua"></i>
+            </div>
+            <div class="product-container">
+                <img src="/img/balo1-resized.jpg" class="product-img">
+                <h2 class="product-title">Balo</h2>
+                <span>299.000đ</span>
+                <i class="fa-solid fa-cart-plus fa-lg" id="balo1"></i>
+            </div>
+            <div class="product-container">
+                <img src="/img/lego1_resized.jpg" class="product-img">
+                <h2 class="product-title">Lego</h2>
+                <span>389.000đ</span>
+                <i class="fa-solid fa-cart-plus fa-lg" id="lego1"></i>
+            </div>
+            <div class="product-container">
+                <img src="/img/lego2-resized.jpg" class="product-img">
+                <h2 class="product-title">Lego 2</h2>
+                <span>1.399.000đ</span>
+                <i class="fa-solid fa-cart-plus fa-lg" id="lego2"></i>
+            </div><div class="product-container">
+                <img src="/img/balo2_resized.jpg" class="product-img">
+                <h2 class="product-title">Balo 2</h2>
+                <span>269.000đ</span>
+                <i class="fa-solid fa-cart-plus fa-lg" id="balo2"></i>
+            </div><div class="product-container">
+                <img src="/img/lego1_resized.jpg" class="product-img">
+                <h2 class="product-title">Lego</h2>
+                <span>389.000đ</span>
+                <i class="fa-solid fa-cart-plus fa-lg" id="#"></i>
+            </div><div class="product-container">
+                <img src="/img/lego1_resized.jpg" class="product-img">
+                <h2 class="product-title">Lego</h2>
+                <span>389.000đ</span>
+                <i class="fa-solid fa-cart-plus fa-lg" id="#"></i>
+            </div>
+    <!--################################################################-->
+    <!--FOOTER-->
+    <!--FOOTER-->
+    <script src="https://kit.fontawesome.com/39fa9e302b.js" crossorigin="anonymous"></script>
+    <script src="/sidebar.js"></script>
+    <script src="cart-sidebar.js"></script>
+</body>
+</html>

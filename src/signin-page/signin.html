@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="/src/home-page/home.html">Home</a>
+        <a href="https://github.com/geode-sdk" target="_blank" class="github-link">
+            <i class="fa-brands fa-github fa-2xl" style="color: #4fb0be;"></i>
+        </a>
+        <i class="fa-solid fa-bars fa-2xl navigation-bar-icon" style="color:#4fb0be"></i>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <i class="fa-solid fa-minus side-bar-icon" style="color: #4fb0be;"></i>
+        <a href="/src/home-page/home.html">Home</a>
+        <a href="signin.html">Sign In</a>
+        <a href="/src/store-page/store.html">Store</a>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+          <p>&copy; SUPPORT GEODE_SDK PLS PLS PLS PLS PLS</p>
+        </div>
+      </footer>
+<!--###############################################################-->
+    <div class="form-container">
+        <div class="signin-form">
+            <div class="form-contents">
+                <h1 class="heading-title">Sign In</h1>
+                <p class="small-text low-opacity centering-text">Fields marked with an <span class="red-starmark">*</span> are required</p>
+                <p>Email <span class="red-starmark">*</span></p>
+                <input type="email" class="decorated-input">
+                <p>Password <span class="red-starmark">*</span></p>
+                <input type="password" class="decorated-input">
+                <button class="decorated-button">Summit</button>
+                <br>
+                <input type="checkbox"> Remember Me
+                <a class="left-corner" href="forgotpassword-page.html">Forgot Password?</a>
+                <a class="right-corner" href="signup.html">Goto Sign Up</a>
+            </div>
+        </div>
+    </div>
+<!--###########################^CODEHERE^^#########################-->
+    <script src="https://kit.fontawesome.com/39fa9e302b.js" crossorigin="anonymous"></script>
+    <script src="/sidebar.js"></script>
+</body>
+</html>

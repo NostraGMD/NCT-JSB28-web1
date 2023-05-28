@@ -1,0 +1,62 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.signin-form {
+    position: relative;
+    border: 5px solid #4fb0be;
+    border-radius: 20px;
+    width: 500px;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+}
+.form-contents {
+    color: #333333;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.red-starmark {
+    color:red;
+}
+.small-text {
+    font-size:small;
+}
+.low-opacity {
+    opacity: 80%;
+}
+.decorated-input {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 450px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: large;
+}
+.decorated-button {
+    height: 50px;
+    width: 450px;
+    border: 2px solid #333333;
+    margin-top:20px;
+}
+
+button:hover {
+    background-color:#cacaca;
+    transition: 0.2s;
+}
+.left-corner {
+    display: flex;
+    justify-content: start;
+    color:#4fb0be;
+    text-decoration: none;
+}
+.right-corner {
+    display: flex;
+    justify-content: end;
+    margin-top: -20px;
+    margin-right: 20px;
+    color:#4fb0be;
+    text-decoration: none;
+}
