@@ -1,4 +1,4 @@
 # NCT-JSB28-web1
 
-new rewritten ver <br>
-go support geode-sdk.
+<h1> new rewritten ver <br>
+<h2> go support geode-sdk.
